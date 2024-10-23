@@ -9,6 +9,6 @@ data class Message(
     val timestamp: UnixInstant,
     val content: String,
     val id: String,
-    val device: Device = Device.Unknown,
+    val device: Device? = Device.Unknown,
     val type: MessageType = MessageType.Unknown
 )

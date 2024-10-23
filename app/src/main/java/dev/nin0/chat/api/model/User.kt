@@ -7,5 +7,5 @@ data class User(
     val username: String,
     val roles: Roles,
     val id: String,
-    val device: Device = Device.Unknown
+    val device: Device? = Device.Unknown
 )

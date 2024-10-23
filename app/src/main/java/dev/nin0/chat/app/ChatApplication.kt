@@ -4,6 +4,7 @@ import android.app.Application
 import dev.nin0.chat.di.ApiModule
 import dev.nin0.chat.di.KtorModule
 import dev.nin0.chat.di.ManagerModule
+import dev.nin0.chat.di.StoreModule
 import dev.nin0.chat.di.ViewModelModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
@@ -20,7 +21,8 @@ class ChatApplication: Application() {
                 KtorModule,
                 ApiModule,
                 ViewModelModule,
-                ManagerModule
+                ManagerModule,
+                StoreModule
             )
         }
     }

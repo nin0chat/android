@@ -8,5 +8,5 @@ data class User(
     val roles: Roles,
     val id: String,
     val device: Device? = Device.Unknown,
-    val bridgeMetadata: BridgeMetadata
+    val bridgeMetadata: BridgeMetadata? = null
 )

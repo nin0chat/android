@@ -25,7 +25,7 @@ class DomainMessage(
                 id = id,
                 device = device,
                 type = type,
-                bridgeMetadata = DomainBridgeMetadata.fromApi(apiMessage.author.bridgeMetadata, bridgeClientName)
+                bridgeMetadata = apiMessage.author.bridgeMetadata?.let { DomainBridgeMetadata.fromApi(it, bridgeClientName) }
             )
         }
 

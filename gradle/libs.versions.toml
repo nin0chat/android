@@ -16,6 +16,7 @@ kotlin = "2.0.21"
 koin = "4.0.0"
 kotlinx-datetime = "0.6.1"
 ktor = "3.0.0"
+panels = "1.0.1"
 syntakts = "1.0.0-rc06"
 voyager = "1.1.0-beta02"
 
@@ -58,6 +59,7 @@ voyager-screenmodel = { group = "cafe.adriel.voyager", name = "voyager-screenmod
 voyager-transitions = { group = "cafe.adriel.voyager", name = "voyager-transitions", version.ref = "voyager" }
 
 # Misc.
+panels = { group = "io.github.materiiapps.panels", name = "panels", version.ref = "panels" }
 syntakts = { group = "xyz.wingio.syntakts", name = "syntakts-compose-material3", version.ref = "syntakts" }
 
 # Testing

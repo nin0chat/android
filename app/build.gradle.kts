@@ -57,6 +57,7 @@ dependencies {
     implementation(libs.bundles.ktor)
     implementation(libs.bundles.voyager)
 
+    implementation(libs.panels)
     implementation(libs.syntakts)
 
 }
